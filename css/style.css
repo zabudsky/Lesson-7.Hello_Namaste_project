@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "PT Sans", sans-serif;
+}
+.header{
+  box-sizing: border-box;
+  text-transform: uppercase;
+  margin: 120px auto 100px;
+  text-align: center;
+}
+
+h4{
+  letter-spacing: 4.8px;
+  font-size: 12px;
+  color: #898f99;
+  padding-bottom: 30px;
+}
+h2 {
+  letter-spacing: 4.8px;
+  font-size: 48px;
+  color: #0ec8cb;
+  padding-bottom: 40px;
+}
+.header>p{
+  font-size: 18px;
+  width: 540px;
+  margin: 0 auto;
+  color: #999999;
+}
+
+
+
+.img_4 {
+  box-sizing: border-box;
+  background-color: #0ec8cb;
+  background: url(https://i.ibb.co/c17Mdrj/Monitor.png);
+  height: 65px;
+  width: 65px;
+  font-size: 0;
+  margin: 0 auto;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 55px auto 40px auto;
+}
+.img_3 {
+  box-sizing: border-box;
+  background-color: #0ec8cb;
+  background: url(https://i.ibb.co/8g2JPJy/Eyeglasses.png);
+  height: 65px;
+  width: 65px;
+  font-size: 0;
+  margin: 0 auto;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 55px auto 40px auto;
+}
+.img_2 {
+  box-sizing: border-box;
+  background-color: #0ec8cb;
+  background: url(https://i.ibb.co/5cGtp40/diamond-1.png);
+  height: 65px;
+  width: 65px;
+  font-size: 0;
+  margin: 0 auto;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 55px auto 40px auto;
+}
+.img_1 {
+  box-sizing: border-box;
+  background-color: #0ec8cb;
+  background: url(https://i.ibb.co/NmS9FkG/Anchor.png);
+  height: 65px;
+  width: 65px;
+  font-size: 0;
+  margin: 0 auto;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 55px auto 40px auto;
+}
+.nav {
+  text-align: center;
+}
+div > h3 {
+  padding-bottom: 30px;
+  font-size: 21px;
+  text-transform: uppercase;
+  color: black;
+  margin: 0 auto;
+}
+
+div > .normal {
+  font-weight: normal;
+}
+
+
+div:hover {
+  background-color: #0ec8cb;
+  color: white;
+  transition: all 0.4s linear;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -ms-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  cursor: pointer;
+}
+div:hover p,
+div:hover h3 {
+  color: white;
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+}
+div:hover h3 {
+
+}
+div:hover .img_4 {
+  background: url(https://i.ibb.co/jfKB1YN/monitor-2.png);
+  transition: all 0.4s linear;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -ms-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+}
+div:hover .img_3 {
+  background: url(https://i.ibb.co/9pHLFJR/Eyeglasses-2.png);
+  transition: all 0.4s linear;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -ms-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+}
+div:hover .img_2 {
+  background:  url(https://i.ibb.co/64dRMJ8/img-zip.png) no-repeat;
+  transition: all 0.4s linear;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -ms-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+}
+div:hover .img_1 {
+  background: url(https://i.ibb.co/fQVmqTB/anchor-2.png) ;
+  transition: all 0.4s linear;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -ms-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+}
+
+div > p {
+  text-align: center;
+  font-size: 14px;
+  color: #777777;
+  max-width: 70%;
+  margin: 0 auto;
+}
+.section {
+  width: 1200px;
+  margin: 0 auto;
+}
+div {
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 240px;
+  height: 400px;
+  margin-left: -4px;
+  text-align: center;
+  background-color: #f7f7f7;
+  border: 1px solid #ececec;
+}
